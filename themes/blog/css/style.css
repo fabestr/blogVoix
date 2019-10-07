@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #040C19;
+    text-decoration:none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color:#071C54;
+}
+
+.layout-container {
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+  .region-header #block-blog-branding {
+      display: flex;
+      align-items: center;
+  }
+
+.region-header .site-logo img {
+    width: 5vw;
+    
+}

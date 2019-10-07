@@ -1,0 +1,46 @@
+.header {
+  border-bottom:1px solid lightgrey
+}
+
+.region-header {
+	display:flex; 
+}
+
+.region-header #block-blog-branding {
+	justify-content: center;
+  	width:80%;
+}
+
+.region-header .site-name a {
+	text-decoration: none;
+  	color:#3D83C6;
+  	font-weight:bold;
+  	font-size:1.5em;
+}
+
+.view-frontpage .views-field-field-titre-principal .field-content {
+ 	font-size:2em;
+  	color:#3D83C6;
+}
+
+.views-field-field-photo img {
+ 	margin: 2em;
+}
+
+.main-content {
+	display:flex; 
+}
+
+.region-sidebar-first {
+	padding-right: 1em; 
+  	border-right: 1px solid lightgrey
+}
+
+.region-content {
+	padding:1em; 
+}
+
+.block-menu .menu {
+	display:flex;
+  	justify-content:space-around;
+}
