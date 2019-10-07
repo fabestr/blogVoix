@@ -31,3 +31,13 @@ h4 {
     width: 5vw;
     
 }
+
+
+.region-highlighted #block-reapprendre {
+    text-align:right;
+    background-image:url('../images/bluevoice2.jpg');  
+}
+
+.region-highlighted #block-aparler-2 {
+    background-image:url('../images/pinkvoice.jpg');
+}

@@ -4,6 +4,7 @@
 
 .region-header {
 	display:flex; 
+  	
 }
 
 .region-header #block-blog-branding {
@@ -16,6 +17,32 @@
   	color:#3D83C6;
   	font-weight:bold;
   	font-size:1.5em;
+}
+
+.highlighted {
+ 	background-image: linear-gradient(to right, #1a3b63, #23325c, #2b2854, #321e4a, #36123e); 
+}
+
+.region-highlighted {
+ 	display:flex 
+}
+
+.region-highlighted .block-block-content {
+ 	width:100%; 
+}
+
+.region-highlighted h1 {
+	padding:2em 0.2em; 
+}
+
+.region-highlighted #block-reapprendre {
+ 	background-position:center;
+  	background-size:cover;
+}
+
+.region-highlighted #block-aparler-2 {
+ 	background-position:center;
+  	background-size:cover;
 }
 
 .view-frontpage .views-field-field-titre-principal .field-content {
