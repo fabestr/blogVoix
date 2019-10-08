@@ -3,13 +3,18 @@
 }
 
 .region-header {
-	display:flex; 
+	display:flex;
+  	justify-content:space-between;
+  	padding-top:1em;
   	
 }
 
+.menu--account .menu-item+.menu-item {
+ 	 margin-left:1em;
+}
+
 .region-header #block-blog-branding {
-	justify-content: center;
-  	width:80%;
+  	
 }
 
 .region-header .site-name a {
@@ -20,7 +25,7 @@
 }
 
 .highlighted {
- 	background-image: linear-gradient(to right, #1a3b63, #23325c, #2b2854, #321e4a, #36123e); 
+ 	background-image: linear-gradient(to right, #040a16, #0d1023, #16142e, #241538, #36123e);
 }
 
 .region-highlighted {
@@ -70,4 +75,36 @@
 .block-menu .menu {
 	display:flex;
   	justify-content:space-around;
+  	 
+}
+
+.menu--main .menu {
+	padding-top:0.5em;
+ 	border-top:1px solid lightgrey;
+}
+
+.site-footer {
+  background-image: linear-gradient(to right, #040a16, #0d1023, #16142e, #241538, #36123e);
+}
+
+.region-footer {
+  	padding:0.5em;
+}
+
+.region-footer .field--name-body {
+	text-align:center;
+  	color:white;
+}
+
+.region-footer .field--name-body a {
+ 	text-decoration:underline; 
+}
+
+.region-footer .field--name-body a:link {
+ 	 color:white;
+  	
+}
+
+.region-footer .field--name-body a:visited {
+ 	color:white; 
 }
